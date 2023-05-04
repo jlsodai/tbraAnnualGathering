@@ -28,25 +28,22 @@ const Itinerary = () => {
 					))}
 				</ul>
 			</div>
-			<div className="flex grow mt-16">
+			<div className="flex flex-col grow mt-16">
+				<p className="-mb-4">Day {activeTab + 1} Activites</p>
 				<div className="grid md:grid-cols-2 gap-8 md:gap-20 items-center -md:my-16">
-					<div className="md:pr-16">
-						<h3 className="font-libreb text-4xl">
-							Day {activeTab + 1} Activities
-						</h3>
-						<p className="mt-8">
-							Quas laborum aliquam veritatis, molestiae illum
-							repellendus natus dolores excepturi incidunt ex rem
-							qui. Dolores, rerum et iusto nobis voluptatem totam
-							modi. Lorem ipsum dolor sit amet consectetur
-							adipisicing elit. Quas laborum aliquam veritatis,
-							molestiae illum repellendus natus dolores excepturi
-							incidunt ex rem qui. Dolores, rerum et iusto nobis
-							voluptatem totam modi?
-						</p>
-						<a href="#!" className="btn text-black mt-8">
-							Buy Ticket
-						</a>
+					<div className="grid grid-cols-2 my-8 gap-8">
+						{[...Array(4)].map((e, i) => (
+							<div
+								key={i}
+								className="bg-mustard-50 hover:bg-tender-100 p-8"
+							>
+								<h4 className="font-bold">Activity {i + 1}</h4>
+								<p className="mt-2">
+									Lorem ipsum dolor sit amet consectetur,
+									adipisicing elit.
+								</p>
+							</div>
+						))}
 					</div>
 					<img
 						src="https://tbratest.my.canva.site/egypt-annual-gathering/images/5412a1a14185dad5081e1b7fb967d83e.svg"

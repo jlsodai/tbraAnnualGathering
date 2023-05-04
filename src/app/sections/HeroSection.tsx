@@ -46,9 +46,9 @@ const HeroSection = ({links}: Props) => {
 					workshops and rich cultural & culinary experiences.
 				</p>
 				<div className="flex gap-4 mt-4">
-					<a href="#!" className="btn bg-tender text-black">
-						Get Brochure
-					</a>
+					<Link href="#overview" className="btn bg-tender text-black">
+						Learn More
+					</Link>
 					<Modal btnText="Buy Ticket">
 						<PaperForm formSlug="standardadvertisement" />
 					</Modal>

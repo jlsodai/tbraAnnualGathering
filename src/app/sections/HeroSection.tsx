@@ -1,7 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from 'next/link'
-import React from 'react'
-import CountDownTimer from '../components/CountDownTimer'
+import CountDownTimer from '@/app/components/CountDownTimer'
+import Modal from '@/app/components/Modal'
+import PaperForm from '@/app/components/PaperForm'
 
 interface Props {
   links: string[]
@@ -48,9 +49,9 @@ const HeroSection = ({links}: Props) => {
 					<a href="#!" className="btn bg-tender text-black">
 						Get Brochure
 					</a>
-					<a href="#!" className="btn text-black">
-						Buy Ticket
-					</a>
+					<Modal btnText="Buy Ticket">
+						<PaperForm formSlug="standardadvertisement" />
+					</Modal>
 				</div>
 			</div>
 			<div className="glassmorphism">

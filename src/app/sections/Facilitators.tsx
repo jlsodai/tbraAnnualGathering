@@ -3,7 +3,7 @@ import React from 'react'
 
 const Facilitators = () => {
   return (
-    <section className="bg-dawn-200 min-h-screen flex items-center">
+    <section className="min-h-screen flex items-center">
       <div className="container items-center py-16">
         <h3 className="font-libreb text-4xl text-center">Workshop facilitators</h3>
         <div className="flex gap-8 md:gap-20 mt-16 justify-center">

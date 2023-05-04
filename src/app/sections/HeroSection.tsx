@@ -34,7 +34,7 @@ const HeroSection = ({links}: Props) => {
 				</div>
 			</div>
 			<div className="container -md:my-16">
-				<h3 className="text-mustard font-libreb">
+				<h3 className="text-mustard font-libreb text-2xl">
 					TBrA Annual Gathering
 				</h3>
 				<h1 className="text-8xl -sm:text-6xl mt-2 mb-8 font-halyard font-thin">

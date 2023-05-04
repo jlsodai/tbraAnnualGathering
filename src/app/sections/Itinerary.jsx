@@ -3,18 +3,40 @@
 
 import { useState } from "react";
 
+const itineraries = [
+	{
+		date: "Oct 22",
+		imgUrl: "https://tbratest.my.canva.site/egypt-annual-gathering/images/3d94b1d1b7eda324088fdc984ce7b92f.svg",
+	},
+	{
+		date: "Oct 23",
+		imgUrl: "https://tbratest.my.canva.site/egypt-annual-gathering/images/325f298e3e12e22bf8c05ab7d1ac804b.svg",
+	},
+	{
+		date: "Oct 24",
+		imgUrl: "https://tbratest.my.canva.site/egypt-annual-gathering/images/87241ed462669df43408424bcf3504da.svg",
+	},
+	{
+		date: "Oct 25",
+		imgUrl: "https://tbratest.my.canva.site/egypt-annual-gathering/images/8d17f31ba1cbe3822337034fb1b279f7.svg",
+	},
+	{
+		date: "Oct 26",
+		imgUrl: "https://tbratest.my.canva.site/egypt-annual-gathering/images/07780c6c95dfd50291e726705ff287c9.svg",
+	},
+];
+
 const Itinerary = () => {
 	const [activeTab, setActiveTab] = useState(0);
-	const date = 22;
 	return (
-		<section className="bg-gray-50 min-h-screen py-16 flex">
+		<section id="itinerary" className="bg-gray-50 min-h-screen py-16 flex">
 			<div className="container flex flex-col">
 				<h3 className="font-libreb text-4xl justify-start">
 					Itinerary
 				</h3>
 				<div className="mt-4 text-sm font-medium text-center border-b border-gray-200">
 					<ul className="flex flex-wrap -mb-px">
-						{[...Array(5)].map((e, i) => (
+						{itineraries.map((itinerary, i) => (
 							<li className="mr-2" key={i}>
 								<button
 									onClick={() => setActiveTab(i)}
@@ -24,7 +46,7 @@ const Itinerary = () => {
 											: "hover:text-gray-600 hover:border-gray-300"
 									} `}
 								>
-									Day {i + 1} — Oct {date + i}
+									Day {i + 1} — {itinerary.date}
 								</button>
 							</li>
 						))}
@@ -50,7 +72,7 @@ const Itinerary = () => {
 							))}
 						</div>
 						<img
-							src="https://tbratest.my.canva.site/egypt-annual-gathering/images/5412a1a14185dad5081e1b7fb967d83e.svg"
+							src={itineraries[activeTab].imgUrl}
 							alt="Egypt Pyramid"
 							className="-sm:order-first h-[400px] mx-auto"
 						/>

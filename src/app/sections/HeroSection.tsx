@@ -5,7 +5,10 @@ import Modal from '@/app/components/Modal'
 import PaperForm from '@/app/components/PaperForm'
 
 interface Props {
-  links: string[]
+  links: {
+		title: string
+		url: string
+	}[]
 }
 
 const HeroSection = ({links}: Props) => {
@@ -24,11 +27,11 @@ const HeroSection = ({links}: Props) => {
 					<div className="flex divide-x -sm:mt-8 -sm:justify-center">
 						{links.map((link, i) => (
 							<Link
-								href="#!"
+								href={link.url}
 								className="px-6 hover:underline"
 								key={i}
 							>
-								{link}
+								{link.title}
 							</Link>
 						))}
 					</div>

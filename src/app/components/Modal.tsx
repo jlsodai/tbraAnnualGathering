@@ -5,9 +5,10 @@ interface Props {
   btnText:string
   children: React.ReactNode
   center?: boolean
+  className?: string
 }
 
-export default function Modal({ btnText, children, center = false }: Props) {
+export default function Modal({ btnText, children, center = false, className }: Props) {
 	const [showModal, setShowModal] = useState(false);
 
 	return (
@@ -15,7 +16,7 @@ export default function Modal({ btnText, children, center = false }: Props) {
 			<button
 				className={`btn text-black ${
 					center ? "block mx-auto" : ""
-				}`}
+				} ${className}`}
 				type="button"
 				onClick={() => setShowModal(true)}
 			>

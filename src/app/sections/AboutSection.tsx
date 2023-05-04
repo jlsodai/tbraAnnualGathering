@@ -9,7 +9,7 @@ const AboutSection = () => {
         <div className="md:pr-16">
           <h3 className="font-libreb text-4xl">About the annual gathering</h3>
           <p className="mt-8">Quas laborum aliquam veritatis, molestiae illum repellendus natus dolores excepturi incidunt ex rem qui. Dolores, rerum et iusto nobis voluptatem totam modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laborum aliquam veritatis, molestiae illum repellendus natus dolores excepturi incidunt ex rem qui. Dolores, rerum et iusto nobis voluptatem totam modi?</p>
-          <Modal btnText="Buy Ticket">
+          <Modal btnText="Buy Ticket" className="mt-4">
 						<PaperForm formSlug="standardadvertisement" />
 					</Modal>
         </div>

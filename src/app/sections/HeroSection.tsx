@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from 'next/link'
 import React from 'react'
+import CountDownTimer from '../components/CountDownTimer'
 
 interface Props {
   links: string[]
@@ -59,14 +60,7 @@ const HeroSection = ({links}: Props) => {
 						<br />
 						Cairo, Egypt
 					</p>
-					<div className="flex -sm:mt-8 gap-8">
-						{[...Array(4)].map((e,i) => (
-							<div className="border rounded-lg text-center py-4 px-6" key={i}>
-								<h1 className="font-medium text-3xl font-halyard">27</h1>
-								<p className="text-xs font-thin">days</p>
-							</div>
-						))}
-					</div>
+					<CountDownTimer />
 				</div>
 			</div>
 		</section>

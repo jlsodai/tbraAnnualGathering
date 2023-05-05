@@ -62,7 +62,7 @@ const HeroSection = ({links}: Props) => {
 					<p className="border-l-8 py-2 px-8 border-mustard font-libreb">
 						22 - 29 October 2023
 						<br />
-						Cairo, Egypt
+						Cairo & Sharm El Sheikh, Egypt
 					</p>
 					<CountDownTimer />
 				</div>

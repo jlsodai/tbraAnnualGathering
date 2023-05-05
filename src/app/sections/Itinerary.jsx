@@ -53,9 +53,9 @@ const Itinerary = () => {
 					</ul>
 				</div>
 				<div className="flex flex-col grow mt-16">
-					<p className="-mb-4">Day {activeTab + 1} Activites</p>
-					<div className="grid md:grid-cols-2 gap-8 md:gap-20 items-center -md:my-16">
-						<div className="grid grid-cols-2 my-8 gap-8">
+					<p className="-md:mb-4">Day {activeTab + 1} Activites</p>
+					<div className="grid md:grid-cols-2 gap-8 md:gap-20 items-center">
+						<div className="grid md:grid-cols-2 md:my-8 gap-8">
 							{[...Array(4)].map((e, i) => (
 								<div
 									key={i}
@@ -74,7 +74,7 @@ const Itinerary = () => {
 						<img
 							src={itineraries[activeTab].imgUrl}
 							alt="Egypt Pyramid"
-							className="-sm:order-first h-[400px] mx-auto"
+							className="-sm:order-first md:h-[400px] -sm:w-full mx-auto"
 						/>
 					</div>
 				</div>

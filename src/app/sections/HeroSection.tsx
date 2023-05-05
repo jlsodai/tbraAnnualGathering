@@ -23,7 +23,7 @@ const HeroSection = ({links}: Props) => {
 						alt="Logo"
 					/>
 				</Link>
-				<div className="">
+				<div className="-sm:hidden">
 					<div className="flex divide-x -sm:mt-8 -sm:justify-center">
 						{links.map((link, i) => (
 							<Link

@@ -6,7 +6,7 @@ const Facilitators = () => {
     <section id="facilitators" className="min-h-screen flex items-center">
       <div className="container items-center py-16">
         <h3 className="font-libreb text-4xl text-center">Workshop facilitators</h3>
-        <div className="flex gap-8 md:gap-20 mt-16 justify-center">
+        <div className="md:flex -sm:grid gap-8 md:gap-20 mt-16 justify-center">
           {[...Array(2)].map((e,i) => (
             <div className="text-center" key={i}>
               <img src="https://via.placeholder.com/300" className="mx-auto" alt="" />

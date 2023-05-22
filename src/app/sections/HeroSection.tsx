@@ -1,19 +1,19 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from 'next/link'
-import CountDownTimer from '@/app/components/CountDownTimer'
-import Modal from '@/app/components/Modal'
-import PaperForm from '@/app/components/PaperForm'
+import Link from "next/link";
+import CountDownTimer from "@/app/components/CountDownTimer";
+import Modal from "@/app/components/Modal";
+import PaperForm from "@/app/components/PaperForm";
 
 interface Props {
-  links: {
-		title: string
-		url: string
-	}[]
+	links: {
+		title: string;
+		url: string;
+	}[];
 }
 
-const HeroSection = ({links}: Props) => {
-  return (
-    <section className="flex flex-col justify-between min-h-screen bg-[url('https://res.cloudinary.com/tbra/image/upload/v1683041089/EgyptHeroBg_uv3bcq.jpg')] bg-cover bg-center text-white">
+const HeroSection = ({ links }: Props) => {
+	return (
+		<section className="flex flex-col justify-between min-h-screen bg-[url('https://res.cloudinary.com/tbra/image/upload/v1683041089/EgyptHeroBg_uv3bcq.jpg')] bg-cover bg-center text-white">
 			<div className="container mt-8 flex justify-between items-center">
 				<Link href="/" className="">
 					<img
@@ -49,18 +49,15 @@ const HeroSection = ({links}: Props) => {
 					workshops and rich cultural & culinary experiences.
 				</p>
 				<div className="flex gap-4 mt-4">
-					<Link href="#overview" className="btn bg-tender text-black">
-						Learn More
-					</Link>
 					<Modal btnText="Buy Ticket">
-						<PaperForm formSlug="standardadvertisement" />
+						<PaperForm formSlug="tbraannualgathering" />
 					</Modal>
 				</div>
 			</div>
 			<div className="glassmorphism">
 				<div className="container md:flex justify-between items-center my-4">
 					<p className="border-l-8 py-2 px-8 border-mustard font-libreb">
-						22 - 29 October 2023
+						22 - 28 October 2023
 						<br />
 						Cairo & Sharm El Sheikh, Egypt
 					</p>
@@ -68,7 +65,7 @@ const HeroSection = ({links}: Props) => {
 				</div>
 			</div>
 		</section>
-  )
-}
+	);
+};
 
-export default HeroSection
+export default HeroSection;

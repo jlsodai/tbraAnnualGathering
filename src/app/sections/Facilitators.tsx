@@ -3,7 +3,7 @@ import React from "react";
 
 const Facilitators = () => {
 	return (
-		<section id="facilitators" className="min-h-screen flex items-center">
+		<section id="facilitators" className="flex items-center">
 			<div className="container items-center py-16">
 				<h3 className="font-libreb text-4xl text-center">
 					Workshop facilitators

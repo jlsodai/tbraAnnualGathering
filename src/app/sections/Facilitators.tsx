@@ -21,8 +21,8 @@ const Facilitators = () => {
 								Marjorie Ngwenya
 							</h3>
 							<p>
-								Exec Coach | Speaker | Author | Non-Executive
-								Director
+								Executive Coach | Speaker | Author |
+								Non-Executive Director
 							</p>
 						</div>
 					</div>

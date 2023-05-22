@@ -38,8 +38,8 @@ const Facilitators = () => {
 								Rachel Adams
 							</h3>
 							<p className="text-xs">
-								Transformation Specialist | Speaker |Ontological
-								Leadership Specialist
+								Transformation Specialist | Speaker |
+								Ontological Leadership Specialist
 							</p>
 						</div>
 					</div>

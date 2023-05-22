@@ -1,3 +1,4 @@
+"use client";
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import CountDownTimer from "@/app/components/CountDownTimer";
@@ -12,6 +13,21 @@ interface Props {
 }
 
 const HeroSection = ({ links }: Props) => {
+	const handleScroll = (
+		e: React.MouseEvent<HTMLAnchorElement, MouseEvent>
+	) => {
+		// first prevent the default behavior
+		e.preventDefault();
+		// get the href and remove everything before the hash (#)
+		const href = e.currentTarget.href;
+		const targetId = href.replace(/.*\#/, "");
+		// get the element by id and use scrollIntoView
+		const elem = document.getElementById(targetId);
+		elem?.scrollIntoView({
+			behavior: "smooth",
+		});
+	};
+
 	return (
 		<section className="flex flex-col justify-between min-h-screen bg-[url('https://res.cloudinary.com/tbra/image/upload/v1683041089/EgyptHeroBg_uv3bcq.jpg')] bg-cover bg-center text-white">
 			<div className="container mt-8 flex justify-between items-center">
@@ -23,19 +39,20 @@ const HeroSection = ({ links }: Props) => {
 						alt="Logo"
 					/>
 				</Link>
-				{/* <div className="-sm:hidden">
+				<div className="-sm:hidden">
 					<div className="flex divide-x -sm:mt-8 -sm:justify-center">
 						{links.map((link, i) => (
 							<Link
 								href={link.url}
 								className="px-6 hover:underline"
 								key={i}
+								onClick={handleScroll}
 							>
 								{link.title}
 							</Link>
 						))}
 					</div>
-				</div> */}
+				</div>
 			</div>
 			<div className="container -md:my-16">
 				<h3 className="text-mustard font-libreb text-2xl">

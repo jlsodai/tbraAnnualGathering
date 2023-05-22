@@ -8,7 +8,7 @@ const Facilitators = () => {
 				<h3 className="font-libreb text-4xl text-center">
 					Workshop facilitators
 				</h3>
-				<div className="md:flex -sm:grid gap-8 md:gap-20 mt-16 justify-center">
+				<div className="grid md:grid-cols-2 gap-8 lg:mx-44 md:gap-20 mt-16 justify-center">
 					<div className="text-center">
 						<img
 							src="https://res.cloudinary.com/tbra/image/upload/v1684748106/Marjorie_-_speaking_jhhypu.jpg"
@@ -20,7 +20,7 @@ const Facilitators = () => {
 							<h3 className="text-2xl font-libreb">
 								Marjorie Ngwenya
 							</h3>
-							<p className="text-xs">
+							<p>
 								Exec Coach | Speaker | Author | Non-Executive
 								Director
 							</p>
@@ -37,7 +37,7 @@ const Facilitators = () => {
 							<h3 className="text-2xl font-libreb">
 								Rachel Adams
 							</h3>
-							<p className="text-xs">
+							<p>
 								Transformation Specialist | Speaker |
 								Ontological Leadership Specialist
 							</p>

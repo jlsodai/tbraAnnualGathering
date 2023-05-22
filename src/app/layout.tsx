@@ -68,13 +68,14 @@ const halyard = localFont({
 
 export const metadata = {
 	title: "TBrA Annual Gathering | Egypt 2023",
-	description: "Egypt 2023",
+	description:
+		"Under the theme 'Uniting to Build New Frontiers' we are celebrating these milestones, and paving the way for greater achievements with a call to action for us all to work together, achieve more, and build stronger legacies.",
 };
 
 export default function RootLayout({
-  children,
+	children,
 }: {
-  children: React.ReactNode
+	children: React.ReactNode;
 }) {
 	return (
 		<html lang="en">

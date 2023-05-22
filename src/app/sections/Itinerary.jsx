@@ -37,8 +37,8 @@ const itineraries = [
 		imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1684749847/Beach_tjifo5.jpg",
 		items: [
 			{
-				title: "Welcome to  Sharm-el Sheik",
-				text: "Experience the vibrant heart of Sharm-el-Sheikh—Egypt's premier beach destination as we take you on an enchanting visit to the local souk. This bustling marketplace offers a sensory feast, immersing you in the lively atmosphere and rich culture of Egypt.",
+				title: "Welcome to  Sharm El-Sheikh",
+				text: "Experience the vibrant heart of Sharm El-Sheikh — Egypt's premier beach destination as we take you on an enchanting visit to the local souk. This bustling marketplace offers a sensory feast, immersing you in the lively atmosphere and rich culture of Egypt.",
 			},
 		],
 	},
@@ -48,7 +48,7 @@ const itineraries = [
 		items: [
 			{
 				title: "Ras Mohammed",
-				text: "A day's trip by boat. Situated on the southern tip of the Sinai Peninsula, Ras Mohammed National Park is home to Sharm el Sheikh's best reefs. Besides the pristine coral that awaits offshore, the land delivers empty beaches, salt marshes, and diverse birdlife to name a few.",
+				text: "A day's trip by boat. Situated on the southern tip of the Sinai Peninsula, Ras Mohammed National Park is home to Sharm El-Sheikh's best reefs. Besides the pristine coral that awaits offshore, the land delivers empty beaches, salt marshes, and diverse birdlife to name a few.",
 			},
 			{
 				title: "White Lagoon",
@@ -80,7 +80,7 @@ const itineraries = [
 			},
 			{
 				title: "Canyon of colours",
-				text: "Experience the mesmerizing Canyon of Colours during this thrilling safari in Sharm el Sheikh. Our safari begins as we venture into the rugged landscapes surrounding Sharm el Sheikh, where our experienced guides will navigate through sandy dunes and rocky terrains.",
+				text: "Experience the mesmerizing Canyon of Colours during this thrilling safari in Sharm El-Sheikh. Our safari begins as we venture into the rugged landscapes surrounding Sharm El-Sheikh, where our experienced guides will navigate through sandy dunes and rocky terrains.",
 			},
 		],
 	},

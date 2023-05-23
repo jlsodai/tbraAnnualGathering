@@ -4,6 +4,7 @@ import Link from "next/link";
 import CountDownTimer from "@/app/components/CountDownTimer";
 import Modal from "@/app/components/Modal";
 import PaperForm from "@/app/components/PaperForm";
+import { useEffect, useState } from "react";
 
 interface Props {
 	links: {
@@ -13,6 +14,22 @@ interface Props {
 }
 
 const HeroSection = ({ links }: Props) => {
+	const [showTop, setShowTop] = useState(false);
+	const controlNavbar = () => {
+		if (window.scrollY > 250) {
+			setShowTop(true);
+		} else {
+			setShowTop(false);
+		}
+	};
+
+	useEffect(() => {
+		window.addEventListener("scroll", controlNavbar);
+		return () => {
+			window.removeEventListener("scroll", controlNavbar);
+		};
+	}, []);
+
 	const handleScroll = (
 		e: React.MouseEvent<HTMLAnchorElement, MouseEvent>
 	) => {
@@ -29,7 +46,10 @@ const HeroSection = ({ links }: Props) => {
 	};
 
 	return (
-		<section className="flex flex-col justify-between min-h-screen bg-[url('https://res.cloudinary.com/tbra/image/upload/v1683041089/EgyptHeroBg_uv3bcq.jpg')] bg-cover bg-center text-white">
+		<section
+			className="flex flex-col justify-between min-h-screen bg-[url('https://res.cloudinary.com/tbra/image/upload/v1683041089/EgyptHeroBg_uv3bcq.jpg')] bg-cover bg-center text-white"
+			id="top"
+		>
 			<div className="container mt-8 flex justify-between items-center">
 				<Link href="/" className="">
 					<img
@@ -81,6 +101,16 @@ const HeroSection = ({ links }: Props) => {
 					<CountDownTimer />
 				</div>
 			</div>
+			<Link
+				href="#top"
+				title="Go To Top"
+				onClick={handleScroll}
+				className={`${
+					!showTop && "hidden"
+				} fixed z-90 bottom-8 right-8 border-0 w-16 h-16 rounded-full drop-shadow-md bg-tender text-white text-2xl font-bold flex justify-center items-center`}
+			>
+				&uarr;
+			</Link>
 		</section>
 	);
 };

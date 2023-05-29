@@ -102,7 +102,7 @@ const Itinerary = () => {
 		<section id="itinerary" className="bg-gray-50 min-h-screen py-16 flex">
 			<div className="container flex flex-col">
 				<h3 className="font-libreb text-4xl justify-start">
-					Itinerary
+					Itinerary and i
 				</h3>
 				<div className="mt-4 text-sm font-medium text-center border-b border-gray-200">
 					<ul className="flex flex-wrap -mb-px">
@@ -124,28 +124,36 @@ const Itinerary = () => {
 				</div>
 				<div className="flex flex-col grow mt-16">
 					<p className="-md:mb-4">Day {activeTab} Activites</p>
-					<div className="grid md:grid-cols-2 gap-8 md:gap-20 items-center">
-						<div className="grid md:my-8 gap-8">
-							{itineraries[activeTab].items.map((activity, i) => (
-								<div
-									key={i}
-									className="bg-mustard-50 hover:bg-tender-100 p-8"
-								>
-									<h4 className="font-bold">
-										{activity.title}
-									</h4>
-									<p className="mt-2 whitespace-pre-wrap">
-										{activity.text}
-									</p>
-								</div>
-							))}
+
+					{itineraries.map((itinerary, i) => (
+						<div
+							key={i}
+							className={`${
+								activeTab !== i && "hidden"
+							} grid md:grid-cols-2 gap-8 md:gap-20 items-center`}
+						>
+							<div className="grid md:my-8 gap-8">
+								{itinerary.items.map((activity, j) => (
+									<div
+										key={j}
+										className="bg-mustard-50 hover:bg-tender-100 p-8"
+									>
+										<h4 className="font-bold">
+											{activity.title}
+										</h4>
+										<p className="mt-2 whitespace-pre-wrap">
+											{activity.text}
+										</p>
+									</div>
+								))}
+							</div>
+							<img
+								src={itinerary.imgUrl}
+								alt="Egypt Pyramid"
+								className="-sm:order-first md:h-[400px] -sm:w-full mx-auto"
+							/>
 						</div>
-						<img
-							src={itineraries[activeTab].imgUrl}
-							alt="Egypt Pyramid"
-							className="-sm:order-first md:h-[400px] -sm:w-full mx-auto"
-						/>
-					</div>
+					))}
 				</div>
 			</div>
 		</section>

@@ -52,7 +52,7 @@ const itineraries = [
 			},
 			{
 				title: "White Lagoon",
-				text: "Visit White Lagoon,a serene escape and secluded paradise which boasts pristine sandy beaches and azure waters, inviting you to unwind and soak up the atmosphere.",
+				text: "Visit White Lagoon, a serene escape and secluded paradise which boasts pristine sandy beaches and azure waters, inviting you to unwind and soak up the atmosphere.",
 			},
 		],
 	},

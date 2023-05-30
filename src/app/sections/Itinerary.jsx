@@ -102,7 +102,7 @@ const Itinerary = () => {
 		<section id="itinerary" className="bg-gray-50 min-h-screen py-16 flex">
 			<div className="container flex flex-col">
 				<h3 className="font-libreb text-4xl justify-start">
-					Itinerary and i
+					Itinerary
 				</h3>
 				<div className="mt-4 text-sm font-medium text-center border-b border-gray-200">
 					<ul className="flex flex-wrap -mb-px">

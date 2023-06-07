@@ -41,6 +41,11 @@ const profiles = [
 		imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1686148816/Thema_lwwboo.jpg",
 	},
 	{
+		name: "Dr Ije Anusim",
+		title: "Co-Founder & Director, Insurance, Dot",
+		imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1686150427/Ije_pcr2g3.jpg",
+	},
+	{
 		name: "Bola Tinubu, CDir",
 		title: "Partner, Olajide Oyewole LLP, and Chair, TheBoardroom Africa",
 		imgUrl: "https://web.theboardroomafrica.com/wp-content/uploads/2021/02/WhatsApp-Image-2021-02-10-at-14.57.31.jpeg",

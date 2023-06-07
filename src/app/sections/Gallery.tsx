@@ -2,7 +2,7 @@
 const profiles = [
 	{
 		name: "Zimbini Hill",
-		title: "Chairperson of the Board, Independent Development Trust",
+		title: "Chair, Independent Development Trust and Founder, Hluma Media",
 		imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1686148450/ZimbiniHill_xjpxzc.jpg",
 	},
 	{

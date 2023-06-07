@@ -2,57 +2,47 @@
 const profiles = [
 	{
 		name: "Zimbini Hill",
-		title: "Chairperson of the Board",
-		company: "Independent Development Trust",
+		title: "Chairperson of the Board, Independent Development Trust",
 		imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1686148450/ZimbiniHill_xjpxzc.jpg",
 	},
 	{
 		name: "Rachel More Oshodi",
-		title: "Deputy VP Commercial Sales, Africa",
-		company: "TotalEnergies",
+		title: "Deputy VP Commercial Sales, Africa, TotalEnergies",
 		imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1686148376/Rachel_ifoe7s.jpg",
 	},
 	{
 		name: "Linda Songa Mateza",
-		title: "Strategic Executive: Retirement Funds",
-		company: "Liberty Group",
+		title: "Strategic Executive: Retirement Funds, Liberty Group",
 		imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1686148558/mateza_opr2ym.jpg",
 	},
 	{
 		name: "Nieros Oyegun-Soerensen",
-		title: "Partner & COO",
-		company: "Verod Capital Management",
+		title: "Partner & COO, Verod Capital Management",
 		imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1686148636/Nieros_a1ys1v.jpg",
 	},
 	{
 		name: "Ayesha Bedwei Ibe",
-		title: "President",
-		company: "American Chamber of Commerce, Ghana",
+		title: "Global People Leader-Tax and Legal Services, PwC",
 		imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1686148685/Ayesha_qipujl.jpg",
 	},
 	{
-		name: "Rosalind Kainyah",
-		title: "Vice Chair and TrusteeVice Chair and Trustee",
-		company: "African Gifted Foundation",
+		name: "Rosalind Kainyah, MBE",
+		title: "MD, Kina Advisory, Sustainability Advisor",
 		imgUrl: "https://res.cloudinary.com/dmaestro/image/upload/v1665755819/tbra/rosalind.jpg",
 	},
 	{
 		name: "Christal Jackson",
-		title: "Founder",
-		company: "Mosaic Genius",
+		title: "Founder, Mosaic Genius and Impact & Equity Architect",
 		imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1686148773/Christal_eropr9.jpg",
 	},
 	{
-		name: "Thema Bryant",
-		title: "Professor",
-		company:
-			"Pepperdine University Graduate School of Education and Psychology",
+		name: "Dr Thema Bryant",
+		title: "Professor, Pepperdine University Graduate School of Education and Psychology",
 		imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1686148816/Thema_lwwboo.jpg",
 	},
 	{
-		name: "Bola Tinubu",
-		title: "Chairperson",
-		company: "TheBoardroom Africa",
+		name: "Bola Tinubu, CDir",
+		title: "Partner, Olajide Oyewole LLP, and Chair, TheBoardroom Africa",
 		imgUrl: "https://web.theboardroomafrica.com/wp-content/uploads/2021/02/WhatsApp-Image-2021-02-10-at-14.57.31.jpeg",
 	},
 ];
@@ -77,9 +67,7 @@ const Gallery = () => {
 								<h4 className="font-bold text-md mt-2">
 									{profile.name}
 								</h4>
-								<p>
-									{profile.title}, {profile.company}
-								</p>
+								<p>{profile.title}</p>
 							</div>
 						</div>
 					))}

@@ -7,7 +7,7 @@ const profiles = [
 	},
 	{
 		name: "Rachel More Oshodi",
-		title: "Deputy VP Commercial Sales, Africa, TotalEnergies",
+		title: "Deputy VP Commercial Sales, Africa, TotalEnergies and Founder, Ruwah",
 		imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1686148376/Rachel_ifoe7s.jpg",
 	},
 	{
@@ -28,7 +28,7 @@ const profiles = [
 	{
 		name: "Rosalind Kainyah, MBE",
 		title: "MD, Kina Advisory, and Sustainability Advisor",
-		imgUrl: "https://res.cloudinary.com/dmaestro/image/upload/v1665755819/tbra/rosalind.jpg",
+		imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1686150864/Rosalind_eb8ljc.jpg",
 	},
 	{
 		name: "Christal Jackson",

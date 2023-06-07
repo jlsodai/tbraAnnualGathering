@@ -36,7 +36,7 @@ const profiles = [
 		imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1686148773/Christal_eropr9.jpg",
 	},
 	{
-		name: "Dr Thema Bryant",
+		name: "Dr. Thema Bryant",
 		title: "Professor, Pepperdine University Graduate School of Education and Psychology",
 		imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1686148816/Thema_lwwboo.jpg",
 	},

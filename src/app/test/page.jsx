@@ -4,6 +4,7 @@ import Itinerary from "@/app/sections/Itinerary";
 import Footer from "@/app/sections/Footer";
 import Facilitators from "@/app/sections/Facilitators";
 import Attendees from "@/app/sections/Attendees";
+import Gallery from "@/app/sections/Gallery";
 
 const links = [
 	{ title: "Overview", url: "#overview" },
@@ -17,9 +18,10 @@ export default function Home() {
 			<HeroSection links={links} />
 			<AboutSection />
 			<Facilitators />
+			<Gallery />
 			<Itinerary />
+			{/* <Attendees /> */}
 			<Footer />
-			<Attendees />
 		</>
 	);
 }

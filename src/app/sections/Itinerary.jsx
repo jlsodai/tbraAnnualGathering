@@ -99,7 +99,7 @@ const itineraries = [
 const Itinerary = () => {
 	const [activeTab, setActiveTab] = useState(0);
 	return (
-		<section id="itinerary" className="bg-gray-50 min-h-screen py-16 flex">
+		<section id="itinerary" className="min-h-screen py-16 flex">
 			<div className="container flex flex-col">
 				<h3 className="font-libreb text-4xl justify-start">
 					Itinerary

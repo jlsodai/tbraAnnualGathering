@@ -9,6 +9,7 @@ import Gallery from "@/app/sections/Gallery";
 const links = [
 	{ title: "Overview", url: "#overview" },
 	{ title: "Facilitators", url: "#facilitators" },
+	{ title: "Who's coming", url: "#participants" },
 	{ title: "Itinerary", url: "#itinerary" },
 ];
 

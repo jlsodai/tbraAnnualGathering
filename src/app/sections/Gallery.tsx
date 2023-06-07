@@ -54,7 +54,7 @@ const profiles = [
 
 const Gallery = () => {
 	return (
-		<section className="py-16 bg-gray-50">
+		<section className="py-16 bg-gray-50" id="participants">
 			<div className="container">
 				<h3 className="font-libreb text-4xl">Who is coming?</h3>
 				<div className=" grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-center mt-10">

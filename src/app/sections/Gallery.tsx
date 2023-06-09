@@ -66,7 +66,7 @@ const Gallery = () => {
 									"https://via.placeholder.com/400x400"
 								}`}
 								alt=""
-								className="rounded w-full h-[220px] object-cover object-top"
+								className="rounded w-full md:h-[220px] object-cover object-top"
 							/>
 							<div className="px-1">
 								<h4 className="font-bold text-md mt-2">

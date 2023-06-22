@@ -6,12 +6,12 @@ const profiles = [
         imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1686148450/ZimbiniHill_xjpxzc.jpg",
     },
     {
-        name: "Rachel More Oshodi",
+        name: "Rachel Moré Oshodi",
         title: "Deputy VP Commercial Sales, Africa, TotalEnergies and Founder, Ruwah",
         imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1686148376/Rachel_ifoe7s.jpg",
     },
     {
-        name: "Linda Songa Mateza",
+        name: "Linda Soga Mateza",
         title: "Strategic Executive: Retirement Funds, Liberty Group",
         imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1686148558/mateza_opr2ym.jpg",
     },
@@ -46,7 +46,7 @@ const profiles = [
         imgUrl: "https://web.theboardroomafrica.com/wp-content/uploads/2021/02/WhatsApp-Image-2021-02-10-at-14.57.31.jpeg",
     },
     {
-        name: "Dr Ije Anusim",
+        name: "Dr Ijeoma Anusim",
         title: "Co-Founder & Director, Insurance, Dot",
         imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1686150427/Ije_pcr2g3.jpg",
     },

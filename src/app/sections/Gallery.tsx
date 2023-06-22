@@ -52,12 +52,12 @@ const profiles = [
     },
     {
         name: "Annabel Tagoe-Bannerman",
-        title: "Chair, Bakkavor; NED, Edinburgh Investment Trust PLC",
+        title: "Group General Counsel, Bakkavor",
         imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1687420972/Annabel_vi5fjx.jpg",
     },
     {
         name: "Patience Akyianu",
-        title: "Group CEO, Hollard Ghana, NED, Ecobank Ghana",
+        title: "Group CEO, Hollard Ghana",
         imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1687420972/Patience_he4bjt.jpg",
     },
     {
@@ -72,7 +72,7 @@ const profiles = [
     },
     {
         name: "Nassima Sadar",
-        title: "Advisor, French Foreign Trade Advisor, Board Member, Investment specialist, OceanHub Africa",
+        title: "French Foreign Trade Advisor, Board Member, Investment Specialist",
         imgUrl: "https://res.cloudinary.com/tbra/image/upload/v1687420973/Nassima_mefrtf.jpg",
     },
 ];

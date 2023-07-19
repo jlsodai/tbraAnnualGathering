@@ -92,6 +92,38 @@ const profiles = [
     imgUrl:
       "https://res.cloudinary.com/tbra/image/upload/v1687420973/Nassima_mefrtf.jpg",
   },
+  {
+    name: "Charlotte Osei",
+    title:
+      "Director, EISA - Electoral Institute for Sustainable Democracy in Africa",
+    imgUrl:
+      "https://res.cloudinary.com/dqngxqaha/image/upload/v1689760925/charlotteOsei_v58dua.jpg",
+  },
+  {
+    name: "Ngozi Egbuna, PhD",
+    title: "Economist, Regional Trade and Payment Integration Expert",
+    imgUrl:
+      "https://res.cloudinary.com/dqngxqaha/image/upload/v1689760925/ngozi_cugw36.jpg",
+  },
+  {
+    name: "Linda (Kulinda) Davis, PhD",
+    title: "Founder and CEO, Giraffe Bioenergy",
+    imgUrl:
+      "https://res.cloudinary.com/dqngxqaha/image/upload/v1689762931/kulinda_vkv2t7.jpg",
+  },
+  {
+    name: "Queen Mokulubete-Manyadu",
+    title: "Managing Director, Somila Engineering (Pty) Ltd",
+    imgUrl:
+      "https://res.cloudinary.com/dqngxqaha/image/upload/v1689760926/queen_l07uz6.jpg",
+  },
+  {
+    name: "Mwaka Mutambo",
+    title:
+      "Head of Assurance and Enterprise Risk Management, Mastercard Foundation",
+    imgUrl:
+      "https://res.cloudinary.com/dqngxqaha/image/upload/v1689760925/mwako_zg4sn5.jpg",
+  },
 ];
 
 const Gallery = () => {

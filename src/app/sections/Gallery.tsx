@@ -1,11 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 const profiles = [
-  {
-    name: "Zimbini Hill",
-    title: "Chair, Independent Development Trust and Founder, Hluma Media",
-    imgUrl:
-      "https://res.cloudinary.com/tbra/image/upload/v1686148450/ZimbiniHill_xjpxzc.jpg",
-  },
+  // {
+  //   name: "Zimbini Hill",
+  //   title: "Chair, Independent Development Trust and Founder, Hluma Media",
+  //   imgUrl:
+  //     "https://res.cloudinary.com/tbra/image/upload/v1686148450/ZimbiniHill_xjpxzc.jpg",
+  // },
   {
     name: "Rachel Moré Oshodi",
     title:

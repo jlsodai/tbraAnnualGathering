@@ -134,7 +134,7 @@ const profiles = [
     name: "Tracy Harris",
     title: "Founder, 40 Green Acres",
     imgUrl:
-      "https://res.cloudinary.com/tbra/image/upload/v1692977812/nkrumah_zikkzm.jpg",
+      "https://res.cloudinary.com/tbra/image/upload/v1692977812/tracy_qcbrjr.jpg",
   },
 ];
 

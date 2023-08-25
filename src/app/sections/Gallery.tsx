@@ -124,6 +124,18 @@ const profiles = [
     imgUrl:
       "https://res.cloudinary.com/dqngxqaha/image/upload/v1689760925/mwako_zg4sn5.jpg",
   },
+  {
+    name: "Pearl Nkrumah",
+    title: "Executive Director, Retail and Digital Banking, Access Bank",
+    imgUrl:
+      "https://res.cloudinary.com/tbra/image/upload/v1692977812/nkrumah_zikkzm.jpg",
+  },
+  {
+    name: "Tracy Harris",
+    title: "Founder, 40 Green Acres",
+    imgUrl:
+      "https://res.cloudinary.com/tbra/image/upload/v1692977812/nkrumah_zikkzm.jpg",
+  },
 ];
 
 const Gallery = () => {

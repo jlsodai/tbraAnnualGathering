@@ -119,8 +119,7 @@ const profiles = [
   },
   {
     name: "Mwaka Mutambo",
-    title:
-      "Head of Assurance and Enterprise Risk Management, Mastercard Foundation",
+    title: "Director  Assurance and Enterprise Risk Management",
     imgUrl:
       "https://res.cloudinary.com/dqngxqaha/image/upload/v1689760925/mwako_zg4sn5.jpg",
   },

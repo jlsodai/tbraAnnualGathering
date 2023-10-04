@@ -29,8 +29,8 @@ const itineraries = [
         text: "Prepare to be captivated as you stand before the magnificent Giza Pyramids, Memphis, and Sakkara and witness firsthand the enigmatic Sphinx, its stoic gaze echoing centuries of history and learn about Egypt's formidable female leaders.",
       },
       {
-        title: "Gala Dinner",
-        text: "Indulge in an elegant and sophisticated evening as we host a prestigious gala dinner. This exclusive event promises an unforgettable experience as we foster cross-cultural conversations and break bread in an intimate setting. This promises to be a remarkable evening of celebration, camaraderie and shared successes.",
+        title: "Annual Gathering Launch Dinner",
+        text: "Indulge in an elegant and sophisticated evening as we host the prestigious Annual Gathering Launch dinner. This exclusive event promises an unforgettable experience as we foster cross-cultural conversations and break bread in an intimate setting. This promises to be a remarkable evening of celebration, camaraderie and shared successes.",
       },
     ],
   },

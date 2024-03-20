@@ -107,7 +107,7 @@ const HeroSection = ({ links }: Props) => {
             <br />
             Cairo & Sharm El-Sheikh, Egypt
           </p>
-          <CountDownTimer />
+          {/* <CountDownTimer /> */}
         </div>
       </div>
       <Link
